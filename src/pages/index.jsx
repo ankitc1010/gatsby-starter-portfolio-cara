@@ -11,7 +11,7 @@ import { rotate, UpDown, UpDownWide, waveAnimation } from '../styles/animations'
 import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
 import triangle from '../images/triangle.svg';
-import avatar from '../images/avatar.jpg';
+import avatar from '../images/dp.jpeg';
 import '../styles/global';
 
 const Divider = styled(ParallaxLayer)`
@@ -158,7 +158,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello, <br /> I'm Ankit Chauhan.
           </BigTitle>
           <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
         </Hero>
@@ -171,37 +171,29 @@ const Index = () => (
       />
       <Content speed={0.4} offset={1.2} factor={2}>
         <Inner>
-          <Title>Projects</Title>
+          <Title>Open Source Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
+              title="React Boiler Plate"
               link="https://www.behance.net/gallery/58937147/Freiheit"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              This is a custom starter kit.
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
+              title="Preact Boiler Plate"
               link="https://www.behance.net/gallery/52915793/Harry-Potter"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
+              Preact is the tiniest library to make websites.
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
+              title="React Router"
               link="https://www.behance.net/gallery/43907099/Tomb-Raider"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              Routing routes in react pages, maintainer
             </ProjectCard>
-            <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
-              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
-            >
-              A fantasy image manipulation relocating the habitat of wild animals.
-            </ProjectCard>
-          </ProjectsWrapper>
         </Inner>
       </Content>
       <Divider speed={0.1} offset={1} factor={2}>
@@ -252,16 +244,11 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              Senior Software Engineer / CTO, Unicorn Mark
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            I am a dedicated, enthusiastic leader, a creative solution-maker and a web engineering expert with more than 3 years of experience. I am a skilled full-stack developer. I am passionate about building apps with React Native, React.js, Objective-C, and Node.js.
           </AboutDesc>
         </Inner>
       </Content>
@@ -285,14 +272,12 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:ankit.c1010@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://dribbble.com/LekoArts">Github</a> &{' '}
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          &copy; 2018 by Unicorn Mark.{' '}
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
