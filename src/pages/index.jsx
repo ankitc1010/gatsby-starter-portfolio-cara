@@ -194,6 +194,7 @@ const Index = () => (
             >
               Routing routes in react pages, maintainer
             </ProjectCard>
+            </ProjectsWrapper>
         </Inner>
       </Content>
       <Divider speed={0.1} offset={1} factor={2}>
