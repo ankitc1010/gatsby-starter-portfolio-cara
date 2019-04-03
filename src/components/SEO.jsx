@@ -1,6 +1,7 @@
 import React from "react";
 import Helmet from "react-helmet";
 import config from "../../config/website";
+import img from "../images/dp.jpeg";
 
 const SEO = () => {
   const title = config.siteTitle;
@@ -21,20 +22,10 @@ const SEO = () => {
     <Helmet>
       <html lang={config.siteLanguage} />
       <title>Ankit Chauhan | Site</title>
-      <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="32x32"
-        href="/favicons/favicon-32x32.png"
-      />
-      <link
-        rel="icon"
-        type="image/png"
-        sizes="16x16"
-        href="/favicons/favicon-16x16.png"
-      />
-      <link rel="shortcut icon" href="favicon.ico" />
+      <link rel="apple-touch-icon" href={img} />
+      <link rel="icon" type="image/png" sizes="32x32" href={img} />
+      <link rel="icon" type="image/png" sizes="16x16" href={img} />
+      <link rel="shortcut icon" href={img} />
       <meta name="msapplication-TileColor" content={config.backgroundColor} />
       <meta name="msapplication-config" content="browserconfig.xml" />
       <meta name="description" content={description} />
